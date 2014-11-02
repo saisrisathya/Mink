@@ -242,7 +242,7 @@ int id action_bar_overlay_layout 0x7f06001f
 int id action_bar_root 0x7f06001a
 int id action_bar_subtitle 0x7f060023
 int id action_bar_title 0x7f060022
-int id action_click 0x7f06003c
+int id action_click 0x7f06003d
 int id action_context_bar 0x7f06001d
 int id action_menu_divider 0x7f060016
 int id action_menu_presenter 0x7f060017
@@ -271,6 +271,7 @@ int id middle 0x7f060012
 int id never 0x7f060009
 int id none 0x7f060010
 int id normal 0x7f060000
+int id preview 0x7f06003c
 int id progress_circular 0x7f060018
 int id progress_horizontal 0x7f060019
 int id radio 0x7f06002f
