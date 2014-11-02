@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.clabs.mindclick.MainActivity" >
+
+    <item
+        android:id="@+id/action_click"
+        android:orderInCategory="100"
+        android:title="@string/action_click"
+        app:showAsAction="never"/>
+
+</menu>
