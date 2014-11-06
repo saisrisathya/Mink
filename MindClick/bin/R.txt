@@ -242,7 +242,7 @@ int id action_bar_overlay_layout 0x7f06001f
 int id action_bar_root 0x7f06001a
 int id action_bar_subtitle 0x7f060023
 int id action_bar_title 0x7f060022
-int id action_click 0x7f06003d
+int id action_click 0x7f060040
 int id action_context_bar 0x7f06001d
 int id action_menu_divider 0x7f060016
 int id action_menu_presenter 0x7f060017
@@ -268,6 +268,7 @@ int id image 0x7f060027
 int id listMode 0x7f060001
 int id list_item 0x7f060029
 int id middle 0x7f060012
+int id modeStatusView 0x7f06003e
 int id never 0x7f060009
 int id none 0x7f060010
 int id normal 0x7f060000
@@ -290,12 +291,14 @@ int id showCustom 0x7f060007
 int id showHome 0x7f060004
 int id showTitle 0x7f060006
 int id split_action_bar 0x7f06001e
+int id statusView 0x7f06003f
 int id submit_area 0x7f060039
 int id tabMode 0x7f060002
 int id title 0x7f06002b
 int id top_action_bar 0x7f060020
 int id up 0x7f060021
 int id useLogo 0x7f060003
+int id valueView 0x7f06003d
 int id withText 0x7f06000c
 int integer abc_max_action_buttons 0x7f0a0000
 int layout abc_action_bar_decor 0x7f030000
