@@ -12,6 +12,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.hardware.Camera;
 import android.hardware.Camera.PictureCallback;
+import android.hardware.Camera.ShutterCallback;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
@@ -323,12 +324,19 @@ public class MainActivity extends Activity {
 	            // Nothing to do here.
 	        }
 	    };
+	    
+    private final ShutterCallback shutterCallback = new ShutterCallback() {
+	        @Override
+	        public void onShutter() { 
+	        	mAudioManager.playSoundEffect(Sounds.SUCCESS);
+	        }
+	    };   
 
 	 
 	 private void takePicture() {
 
 		 Log.d("Camera","Taking Picture");
-		 mCamera.takePicture(null, null, mPictureCallback);
+		 mCamera.takePicture(shutterCallback, null, mPictureCallback);
 
 		}
 
