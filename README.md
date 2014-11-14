@@ -1,3 +1,3 @@
-Mink - Mind Click
+Mink
 ====
-A Google Glass application that takes pictures based on EEG Readings captured using a Mind Wave headset.
+Mink stands for Mind Click - a Google Glass application that takes pictures based on EEG Readings captured using a Mind Wave headset.
